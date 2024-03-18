@@ -3,5 +3,5 @@
 To repro:
 ```sh
 npm i
-npm run check
+npm run subscriber
 ```
