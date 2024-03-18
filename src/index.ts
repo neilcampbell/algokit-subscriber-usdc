@@ -19,8 +19,8 @@ if (
 // eslint-disable-next-line no-console
 process.on("uncaughtException", (e) => console.error(e));
 (async () => {
-  const algod = await algokit.getAlgoClient();
-  const indexer = await algokit.getAlgoIndexerClient();
+  const algod = algokit.getAlgoClient();
+  const indexer = algokit.getAlgoIndexerClient();
   let watermark = 0;
 
   const subscriber = new AlgorandSubscriber(
