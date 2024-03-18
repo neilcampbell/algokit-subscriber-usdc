@@ -15,7 +15,7 @@
     "typescript": "5.1.6"
   },
   "dependencies": {
-    "@algorandfoundation/algokit-subscriber": "1.0.0",
+    "@algorandfoundation/algokit-subscriber": "^1.0.0",
     "@algorandfoundation/algokit-utils": "^5.6.0",
     "algosdk": "2.7.0"
   },
